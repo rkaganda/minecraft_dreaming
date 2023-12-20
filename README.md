@@ -14,11 +14,11 @@
 ### replace_world_file.py / copy_mca_to_container.ipynb 
 - Creates a backup of region file in container, then inserts source region file into Minecraft docker container
 
-### reading_chunks.ipynb 
-- Extracts Minecraft NBT chunk data from .mca files and plots the chunks as voxels, converts chunk to numpy array
+### plotting_chunks.ipynb 
+- Extracts Minecraft NBT chunk data from .mca files and plots the chunks as voxels.
 
 ### single_chunk_plot.ipynb 
-- Extracts Minecraft NBT chunk data from .mca files and plots the chunk as voxels.
+- Extracts Minecraft NBT chunk data from .mca files and plots the blocks as voxels.
 
 ### nbt_to_mca_file.ipynb
 - Takes Minecraft NBT chunks and compresses and stores them in .mca region format to be consumed by a Minecraft server
