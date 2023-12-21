@@ -39,4 +39,10 @@
 - Splitting a 16x16x16 into 4x4x4 chunks. 
 - Increased sub chunk size reduces the number of one-to-many relationships at the cost of model size.
 
+### create_chunks_dataset.ipynb 
+- Loads region files, extracts NBT chunks.
+- Creates a combined palette that contains all block_state + biome combinations.
+- Creates a 16x16x16 numpy array for each sub chunk, where the value represents an index in the combined block+biome palette.
+
+
 
